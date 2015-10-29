@@ -1,5 +1,5 @@
 {
-    "name":"metamodels/attribute_select",
+    "name":"designs2/attribute_select",
     "description":"MetaModels attribute for selects",
     "keywords":["contao", "metamodels", "attribute", "select", "nontranslatable"],
     "type":"contao-module",
@@ -23,18 +23,18 @@
         "issues":"https://github.com/MetaModels/attribute_select/issues",
         "wiki":"http://de.contaowiki.org/MetaModels",
         "irc":"irc://irc.freenode.org/contao.mm",
-        "source":"https://github.com/MetaModels/attribute_select"
+        "source":"https://github.com/designs2/attribute_select"
     },
     "require":{
         "php":">=5.3",
         "contao/core": ">=3.2,<3.6",
-        "contao-community-alliance/composer-plugin": "~2.0",
-        "metamodels/core":"~2.0"
+        "contao-community-alliance/composer-plugin": "*",
+        "metamodels/core":"*"
     },
     "require-dev": {
-        "cyberspectrum/contao-toolbox": "~0.6",
-        "phpcq/all-tasks": "~1.0",
-        "metamodels/base-unit-tests": "~1.0"
+        "cyberspectrum/contao-toolbox": "*",
+        "phpcq/all-tasks": "*",
+        "metamodels/base-unit-tests": "*"
     },
     "conflict": {
         "contao/core": "3.4.0"
